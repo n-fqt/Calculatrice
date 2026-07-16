@@ -1,15 +1,9 @@
-// Mettre en commentaire un bloc de code : Ctrl + K + C
-// Enlever le commentaire d'un bloc de code : Ctrl + K + U
-// Remettre en forme le code : Ctrl + K + F
-
 window.onload = function () {
   const state = "prod"; // "dev" ou "prod"
   const resultat = document.getElementById("resultat");
   const touches = document.querySelectorAll("#calculatrice th");
 
   let calcul = "";
-
-  // Click sur touches
 
   touches.forEach((touche) => {
     touche.addEventListener("click", () => {
@@ -24,8 +18,6 @@ window.onload = function () {
     });
   });
 
-
-  // Ajout dans le input
   function ajouterCalcul(caractere) {
     calcul += caractere;
     notify("Calcul actuel : " + calcul);
