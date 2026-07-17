@@ -40,7 +40,6 @@ window.onload = function () {
     resultat.value = "";
   }
 
-  // Si appui sur égal, calcul
   document.getElementById("equal").addEventListener("click", () => {
     calculer();
   });

@@ -14,7 +14,7 @@ body {
 }
 
 #calculatrice {
-    background: #2c3e50;
+    background: #989fa5;
     padding: 20px;
     border-radius: 15px;
     border-spacing: 10px;
@@ -30,14 +30,14 @@ body {
     border: none;
     border-radius: 10px;
     background: #ecf0f1;
-    color: #2c3e50;
+    color: #000000;
     display: block;
 }
 
 #calculatrice th {
     width: 70px;
     height: 70px;
-    background: #34495e;
+    background: #707981;
     color: white;
     font-size: 1.5rem;
     border-radius: 10px;
@@ -47,7 +47,7 @@ body {
 }
 
 #calculatrice th:hover {
-    background: #4a6785;
+    background: #1d1e1f;
     transform: scale(1.05);
 }
 
